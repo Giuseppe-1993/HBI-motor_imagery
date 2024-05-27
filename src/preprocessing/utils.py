@@ -1,5 +1,6 @@
 import numpy as np
 import mne
+from mne import Epochs
 
 
 def extract_emg_data(raw_dataset: mne.io.Raw, inverse: bool = False) -> np.ndarray:
